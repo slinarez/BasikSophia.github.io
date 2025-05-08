@@ -1,0 +1,152 @@
+
+
+body {
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(75, 53, 69);
+    font-family: Montserrat;
+  }
+
+  .header{
+
+    padding: 5px;
+    text-align: center;
+
+  }
+
+  
+  
+  h1 {
+    color:  rgb(250, 227, 198);
+    font-size: 30px;
+    text-align: left;
+  }
+
+  h2 {
+    color:  rgb(250, 227, 198);
+    text-align: center;
+    font-size: 18px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .code{
+
+    text-align: center;
+
+  }
+
+
+  a:link {
+    color:  rgb(250, 164, 189);
+    font-size: 25px;
+    padding: 10px 50px;
+   
+  }
+  
+
+  a:visited {
+    color:rgb(250, 164, 189);
+    font-size: 25px;
+    padding: 10px 50px;
+  }
+
+  p{
+
+    color:rgb(1250, 227, 198);
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 5px 50px;
+
+  }
+
+  p2 {
+
+    color:rgb(1250, 227, 198);
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 15px 50px;
+
+  }
+  
+  .column {
+    /* float: left; */
+    width: 50%;
+    margin: auto;
+    padding: 50px 10px;
+  }
+
+
+  ---image CSS----
+
+  #Beatrix {
+    border: 0px solid #fefafa;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  #Beatrix:hover {
+    box-shadow: 0 0 2px 1px rgba(245, 100, 169);
+  }
+
+  #cyber{
+    border: 0px solid #fefafa;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  #cyber:hover {
+    box-shadow: 0 0 2px 1px rgba(245, 100, 169);
+  }
+
+
+----Contact CSS----
+
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  color: rgb(250, 164, 189);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(250, 164, 189);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #dd5a8a;
+}
+
+.container {
+  width: 600px;
+  color:rgb(83, 59, 77); 
+  max-width: 100%; 
+  margin: 0 auto; 
+  border-radius: 5px;
+  background-color: rgb(193, 171, 166);
+  padding: 12px 20px;
+}
+
